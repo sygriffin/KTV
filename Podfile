@@ -9,5 +9,8 @@ pod 'AFNetworking', '~> 3.2.1'
 
 pod 'CocoaLumberjack', '~> 3.4.2'
 
+pod 'MJExtension', '~> 3.0.13'
+
+pod 'JSONKit', '~> 1.5pre'
 
 end
