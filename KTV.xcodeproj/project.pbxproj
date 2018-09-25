@@ -15,6 +15,7 @@
 		168051EB2159E1AA00D90A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051EA2159E1AA00D90A37 /* main.m */; };
 		168051F52159E1AA00D90A37 /* KTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051F42159E1AA00D90A37 /* KTVTests.m */; };
 		168052002159E1AA00D90A37 /* KTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051FF2159E1AA00D90A37 /* KTVUITests.m */; };
+		3E6370896D92662B364E8F5A /* Pods_KTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F93D2A2863EF3EC37634BE3 /* Pods_KTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		168051FB2159E1AA00D90A37 /* KTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		168051FF2159E1AA00D90A37 /* KTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVUITests.m; sourceTree = "<group>"; };
 		168052012159E1AA00D90A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6C40E34E5AE45E1C276677 /* Pods-KTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTV/Pods-KTV.debug.xcconfig"; sourceTree = "<group>"; };
+		4F93D2A2863EF3EC37634BE3 /* Pods_KTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DF810F0173B6B4840E9C25 /* Pods-KTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTV/Pods-KTV.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6370896D92662B364E8F5A /* Pods_KTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				168051F32159E1AA00D90A37 /* KTVTests */,
 				168051FE2159E1AA00D90A37 /* KTVUITests */,
 				168051D92159E1A900D90A37 /* Products */,
+				9A0D9B3DE5830394E0BE8D5B /* Pods */,
+				63F2C01566B7BE01190D2947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = KTVUITests;
 			sourceTree = "<group>";
 		};
+		63F2C01566B7BE01190D2947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F93D2A2863EF3EC37634BE3 /* Pods_KTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A0D9B3DE5830394E0BE8D5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C40E34E5AE45E1C276677 /* Pods-KTV.debug.xcconfig */,
+				B6DF810F0173B6B4840E9C25 /* Pods-KTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 168052042159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTV" */;
 			buildPhases = (
+				3F4E8EE406E0BAA59BEEC5E4 /* [CP] Check Pods Manifest.lock */,
 				168051D42159E1A900D90A37 /* Sources */,
 				168051D52159E1A900D90A37 /* Frameworks */,
 				168051D62159E1A900D90A37 /* Resources */,
+				179841644F28AE63E38405E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179841644F28AE63E38405E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KTV/Pods-KTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTV/Pods-KTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4E8EE406E0BAA59BEEC5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		168051D42159E1A900D90A37 /* Sources */ = {
@@ -433,6 +504,7 @@
 		};
 		168052052159E1AA00D90A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6C40E34E5AE45E1C276677 /* Pods-KTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +522,7 @@
 		};
 		168052062159E1AA00D90A37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DF810F0173B6B4840E9C25 /* Pods-KTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
