@@ -1,0 +1,17 @@
+//
+//  KTV_PrefixHeader.pch
+//  KTV
+//
+//  Created by songyang on 2018/9/25.
+//  Copyright © 2018年 songyang. All rights reserved.
+//
+
+#ifndef KTV_PrefixHeader_pch
+#define KTV_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* KTV_PrefixHeader_pch */

@@ -15,6 +15,9 @@
 		168052002159E1AA00D90A37 /* KTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051FF2159E1AA00D90A37 /* KTVUITests.m */; };
 		168052132159E70D00D90A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680520E2159E70D00D90A37 /* ViewController.m */; };
 		168052142159E70D00D90A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168052122159E70D00D90A37 /* AppDelegate.m */; };
+		16805245215A048900D90A37 /* libfdk-aac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16805238215A048900D90A37 /* libfdk-aac.a */; };
+		16805246215A048900D90A37 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1680523E215A048900D90A37 /* libmp3lame.a */; };
+		16805247215A048900D90A37 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16805244215A048900D90A37 /* libx264.a */; };
 		3E6370896D92662B364E8F5A /* Pods_KTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F93D2A2863EF3EC37634BE3 /* Pods_KTV.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,18 @@
 		1680520F2159E70D00D90A37 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		168052112159E70D00D90A37 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		168052122159E70D00D90A37 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16805232215A048900D90A37 /* aacdecoder_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdecoder_lib.h; sourceTree = "<group>"; };
+		16805233215A048900D90A37 /* machine_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine_type.h; sourceTree = "<group>"; };
+		16805234215A048900D90A37 /* aacenc_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacenc_lib.h; sourceTree = "<group>"; };
+		16805235215A048900D90A37 /* genericStds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericStds.h; sourceTree = "<group>"; };
+		16805236215A048900D90A37 /* FDK_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_audio.h; sourceTree = "<group>"; };
+		16805238215A048900D90A37 /* libfdk-aac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libfdk-aac.a"; sourceTree = "<group>"; };
+		1680523C215A048900D90A37 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		1680523E215A048900D90A37 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		16805241215A048900D90A37 /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
+		16805242215A048900D90A37 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
+		16805244215A048900D90A37 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		16805249215A1BBE00D90A37 /* KTV_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTV_PrefixHeader.pch; sourceTree = "<group>"; };
 		1A6C40E34E5AE45E1C276677 /* Pods-KTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTV/Pods-KTV.debug.xcconfig"; sourceTree = "<group>"; };
 		4F93D2A2863EF3EC37634BE3 /* Pods_KTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DF810F0173B6B4840E9C25 /* Pods-KTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTV/Pods-KTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16805246215A048900D90A37 /* libmp3lame.a in Frameworks */,
 				3E6370896D92662B364E8F5A /* Pods_KTV.framework in Frameworks */,
+				16805245215A048900D90A37 /* libfdk-aac.a in Frameworks */,
+				16805247215A048900D90A37 /* libx264.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +126,8 @@
 		168051DA2159E1A900D90A37 /* KTV */ = {
 			isa = PBXGroup;
 			children = (
+				16805248215A1BA700D90A37 /* Headers */,
+				16805215215A041B00D90A37 /* Libraries */,
 				168052102159E70D00D90A37 /* AppDelegate */,
 				1680520D2159E70D00D90A37 /* Base */,
 				168051E12159E1A900D90A37 /* Main.storyboard */,
@@ -153,6 +173,120 @@
 				168052122159E70D00D90A37 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16805215215A041B00D90A37 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1680522F215A048900D90A37 /* fdk_acc */,
+				16805239215A048900D90A37 /* lame */,
+				1680523F215A048900D90A37 /* x264 */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		1680522F215A048900D90A37 /* fdk_acc */ = {
+			isa = PBXGroup;
+			children = (
+				16805230215A048900D90A37 /* include */,
+				16805237215A048900D90A37 /* lib */,
+			);
+			path = fdk_acc;
+			sourceTree = "<group>";
+		};
+		16805230215A048900D90A37 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				16805231215A048900D90A37 /* fdk-aac */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		16805231215A048900D90A37 /* fdk-aac */ = {
+			isa = PBXGroup;
+			children = (
+				16805232215A048900D90A37 /* aacdecoder_lib.h */,
+				16805233215A048900D90A37 /* machine_type.h */,
+				16805234215A048900D90A37 /* aacenc_lib.h */,
+				16805235215A048900D90A37 /* genericStds.h */,
+				16805236215A048900D90A37 /* FDK_audio.h */,
+			);
+			path = "fdk-aac";
+			sourceTree = "<group>";
+		};
+		16805237215A048900D90A37 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				16805238215A048900D90A37 /* libfdk-aac.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		16805239215A048900D90A37 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				1680523A215A048900D90A37 /* include */,
+				1680523D215A048900D90A37 /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		1680523A215A048900D90A37 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1680523B215A048900D90A37 /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1680523B215A048900D90A37 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				1680523C215A048900D90A37 /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		1680523D215A048900D90A37 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1680523E215A048900D90A37 /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1680523F215A048900D90A37 /* x264 */ = {
+			isa = PBXGroup;
+			children = (
+				16805240215A048900D90A37 /* include */,
+				16805243215A048900D90A37 /* lib */,
+			);
+			path = x264;
+			sourceTree = "<group>";
+		};
+		16805240215A048900D90A37 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				16805241215A048900D90A37 /* x264_config.h */,
+				16805242215A048900D90A37 /* x264.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		16805243215A048900D90A37 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				16805244215A048900D90A37 /* libx264.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		16805248215A1BA700D90A37 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				16805249215A1BBE00D90A37 /* KTV_PrefixHeader.pch */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		63F2C01566B7BE01190D2947 /* Frameworks */ = {
@@ -525,10 +659,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHZ4PYK93S;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KTV/Headers/KTV_PrefixHeader.pch";
 				INFOPLIST_FILE = KTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTV/Libraries/x264-iOS/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/fdk-aac-ios/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/fat-lame/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/fdk_acc/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/lame/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/x264/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrjc.KTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,10 +687,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHZ4PYK93S;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KTV/Headers/KTV_PrefixHeader.pch";
 				INFOPLIST_FILE = KTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTV/Libraries/x264-iOS/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/fdk-aac-ios/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/fat-lame/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/fdk_acc/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/lame/lib",
+					"$(PROJECT_DIR)/KTV/Libraries/x264/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrjc.KTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
