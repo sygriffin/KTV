@@ -7,73 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1620E981214106960098D8E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620E980214106960098D8E8 /* AppDelegate.m */; };
-		1620E984214106960098D8E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620E983214106960098D8E8 /* ViewController.m */; };
-		1620E987214106960098D8E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1620E985214106960098D8E8 /* Main.storyboard */; };
-		1620E989214106970098D8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1620E988214106970098D8E8 /* Assets.xcassets */; };
-		1620E98C214106970098D8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1620E98A214106970098D8E8 /* LaunchScreen.storyboard */; };
-		1620E98F214106970098D8E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620E98E214106970098D8E8 /* main.m */; };
-		1620E999214106970098D8E8 /* KTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620E998214106970098D8E8 /* KTVTests.m */; };
-		1620E9A4214106970098D8E8 /* KTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620E9A3214106970098D8E8 /* KTVUITests.m */; };
-		B1069533A1921A16A96E1401 /* Pods_KTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91993FD81AD2CC539A66CA2F /* Pods_KTV.framework */; };
+		168051DD2159E1A900D90A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051DC2159E1A900D90A37 /* AppDelegate.m */; };
+		168051E02159E1A900D90A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051DF2159E1A900D90A37 /* ViewController.m */; };
+		168051E32159E1A900D90A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168051E12159E1A900D90A37 /* Main.storyboard */; };
+		168051E52159E1AA00D90A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168051E42159E1AA00D90A37 /* Assets.xcassets */; };
+		168051E82159E1AA00D90A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168051E62159E1AA00D90A37 /* LaunchScreen.storyboard */; };
+		168051EB2159E1AA00D90A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051EA2159E1AA00D90A37 /* main.m */; };
+		168051F52159E1AA00D90A37 /* KTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051F42159E1AA00D90A37 /* KTVTests.m */; };
+		168052002159E1AA00D90A37 /* KTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168051FF2159E1AA00D90A37 /* KTVUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1620E995214106970098D8E8 /* PBXContainerItemProxy */ = {
+		168051F12159E1AA00D90A37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1620E974214106960098D8E8 /* Project object */;
+			containerPortal = 168051D02159E1A900D90A37 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1620E97B214106960098D8E8;
+			remoteGlobalIDString = 168051D72159E1A900D90A37;
 			remoteInfo = KTV;
 		};
-		1620E9A0214106970098D8E8 /* PBXContainerItemProxy */ = {
+		168051FC2159E1AA00D90A37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1620E974214106960098D8E8 /* Project object */;
+			containerPortal = 168051D02159E1A900D90A37 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1620E97B214106960098D8E8;
+			remoteGlobalIDString = 168051D72159E1A900D90A37;
 			remoteInfo = KTV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1620E97C214106960098D8E8 /* KTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1620E97F214106960098D8E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1620E980214106960098D8E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1620E982214106960098D8E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1620E983214106960098D8E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1620E986214106960098D8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1620E988214106970098D8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1620E98B214106970098D8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1620E98D214106970098D8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1620E98E214106970098D8E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1620E994214106970098D8E8 /* KTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1620E998214106970098D8E8 /* KTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVTests.m; sourceTree = "<group>"; };
-		1620E99A214106970098D8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1620E99F214106970098D8E8 /* KTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1620E9A3214106970098D8E8 /* KTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVUITests.m; sourceTree = "<group>"; };
-		1620E9A5214106970098D8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		171FDEDEF28803E7815ABA9B /* Pods-KTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTV/Pods-KTV.debug.xcconfig"; sourceTree = "<group>"; };
-		91993FD81AD2CC539A66CA2F /* Pods_KTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4D67D3097F026FD59DAB07D /* Pods-KTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTV/Pods-KTV.release.xcconfig"; sourceTree = "<group>"; };
+		168051D82159E1A900D90A37 /* KTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168051DB2159E1A900D90A37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		168051DC2159E1A900D90A37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		168051DE2159E1A900D90A37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		168051DF2159E1A900D90A37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		168051E22159E1A900D90A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168051E42159E1AA00D90A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168051E72159E1AA00D90A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168051E92159E1AA00D90A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168051EA2159E1AA00D90A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		168051F02159E1AA00D90A37 /* KTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168051F42159E1AA00D90A37 /* KTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVTests.m; sourceTree = "<group>"; };
+		168051F62159E1AA00D90A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168051FB2159E1AA00D90A37 /* KTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168051FF2159E1AA00D90A37 /* KTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVUITests.m; sourceTree = "<group>"; };
+		168052012159E1AA00D90A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1620E979214106960098D8E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1069533A1921A16A96E1401 /* Pods_KTV.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1620E991214106970098D8E8 /* Frameworks */ = {
+		168051D52159E1A900D90A37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1620E99C214106970098D8E8 /* Frameworks */ = {
+		168051ED2159E1AA00D90A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168051F82159E1AA00D90A37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,91 +78,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1620E973214106960098D8E8 = {
+		168051CF2159E1A900D90A37 = {
 			isa = PBXGroup;
 			children = (
-				1620E97E214106960098D8E8 /* KTV */,
-				1620E997214106970098D8E8 /* KTVTests */,
-				1620E9A2214106970098D8E8 /* KTVUITests */,
-				1620E97D214106960098D8E8 /* Products */,
-				8D1F9098722224FA8DE71AD3 /* Pods */,
-				BEB23EC9887F7E6B4EFBB4CE /* Frameworks */,
+				168051DA2159E1A900D90A37 /* KTV */,
+				168051F32159E1AA00D90A37 /* KTVTests */,
+				168051FE2159E1AA00D90A37 /* KTVUITests */,
+				168051D92159E1A900D90A37 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1620E97D214106960098D8E8 /* Products */ = {
+		168051D92159E1A900D90A37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1620E97C214106960098D8E8 /* KTV.app */,
-				1620E994214106970098D8E8 /* KTVTests.xctest */,
-				1620E99F214106970098D8E8 /* KTVUITests.xctest */,
+				168051D82159E1A900D90A37 /* KTV.app */,
+				168051F02159E1AA00D90A37 /* KTVTests.xctest */,
+				168051FB2159E1AA00D90A37 /* KTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1620E97E214106960098D8E8 /* KTV */ = {
+		168051DA2159E1A900D90A37 /* KTV */ = {
 			isa = PBXGroup;
 			children = (
-				1620E97F214106960098D8E8 /* AppDelegate.h */,
-				1620E980214106960098D8E8 /* AppDelegate.m */,
-				1620E982214106960098D8E8 /* ViewController.h */,
-				1620E983214106960098D8E8 /* ViewController.m */,
-				1620E985214106960098D8E8 /* Main.storyboard */,
-				1620E988214106970098D8E8 /* Assets.xcassets */,
-				1620E98A214106970098D8E8 /* LaunchScreen.storyboard */,
-				1620E98D214106970098D8E8 /* Info.plist */,
-				1620E98E214106970098D8E8 /* main.m */,
+				168051DB2159E1A900D90A37 /* AppDelegate.h */,
+				168051DC2159E1A900D90A37 /* AppDelegate.m */,
+				168051DE2159E1A900D90A37 /* ViewController.h */,
+				168051DF2159E1A900D90A37 /* ViewController.m */,
+				168051E12159E1A900D90A37 /* Main.storyboard */,
+				168051E42159E1AA00D90A37 /* Assets.xcassets */,
+				168051E62159E1AA00D90A37 /* LaunchScreen.storyboard */,
+				168051E92159E1AA00D90A37 /* Info.plist */,
+				168051EA2159E1AA00D90A37 /* main.m */,
 			);
 			path = KTV;
 			sourceTree = "<group>";
 		};
-		1620E997214106970098D8E8 /* KTVTests */ = {
+		168051F32159E1AA00D90A37 /* KTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				1620E998214106970098D8E8 /* KTVTests.m */,
-				1620E99A214106970098D8E8 /* Info.plist */,
+				168051F42159E1AA00D90A37 /* KTVTests.m */,
+				168051F62159E1AA00D90A37 /* Info.plist */,
 			);
 			path = KTVTests;
 			sourceTree = "<group>";
 		};
-		1620E9A2214106970098D8E8 /* KTVUITests */ = {
+		168051FE2159E1AA00D90A37 /* KTVUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1620E9A3214106970098D8E8 /* KTVUITests.m */,
-				1620E9A5214106970098D8E8 /* Info.plist */,
+				168051FF2159E1AA00D90A37 /* KTVUITests.m */,
+				168052012159E1AA00D90A37 /* Info.plist */,
 			);
 			path = KTVUITests;
-			sourceTree = "<group>";
-		};
-		8D1F9098722224FA8DE71AD3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				171FDEDEF28803E7815ABA9B /* Pods-KTV.debug.xcconfig */,
-				E4D67D3097F026FD59DAB07D /* Pods-KTV.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BEB23EC9887F7E6B4EFBB4CE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				91993FD81AD2CC539A66CA2F /* Pods_KTV.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1620E97B214106960098D8E8 /* KTV */ = {
+		168051D72159E1A900D90A37 /* KTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1620E9A8214106970098D8E8 /* Build configuration list for PBXNativeTarget "KTV" */;
+			buildConfigurationList = 168052042159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTV" */;
 			buildPhases = (
-				F668D6F9F7807F42BD530D17 /* [CP] Check Pods Manifest.lock */,
-				1620E978214106960098D8E8 /* Sources */,
-				1620E979214106960098D8E8 /* Frameworks */,
-				1620E97A214106960098D8E8 /* Resources */,
-				C30E5BDB2944D27E84B057AE /* [CP] Embed Pods Frameworks */,
+				168051D42159E1A900D90A37 /* Sources */,
+				168051D52159E1A900D90A37 /* Frameworks */,
+				168051D62159E1A900D90A37 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -175,68 +149,68 @@
 			);
 			name = KTV;
 			productName = KTV;
-			productReference = 1620E97C214106960098D8E8 /* KTV.app */;
+			productReference = 168051D82159E1A900D90A37 /* KTV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1620E993214106970098D8E8 /* KTVTests */ = {
+		168051EF2159E1AA00D90A37 /* KTVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1620E9AB214106970098D8E8 /* Build configuration list for PBXNativeTarget "KTVTests" */;
+			buildConfigurationList = 168052072159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTVTests" */;
 			buildPhases = (
-				1620E990214106970098D8E8 /* Sources */,
-				1620E991214106970098D8E8 /* Frameworks */,
-				1620E992214106970098D8E8 /* Resources */,
+				168051EC2159E1AA00D90A37 /* Sources */,
+				168051ED2159E1AA00D90A37 /* Frameworks */,
+				168051EE2159E1AA00D90A37 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1620E996214106970098D8E8 /* PBXTargetDependency */,
+				168051F22159E1AA00D90A37 /* PBXTargetDependency */,
 			);
 			name = KTVTests;
 			productName = KTVTests;
-			productReference = 1620E994214106970098D8E8 /* KTVTests.xctest */;
+			productReference = 168051F02159E1AA00D90A37 /* KTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1620E99E214106970098D8E8 /* KTVUITests */ = {
+		168051FA2159E1AA00D90A37 /* KTVUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1620E9AE214106970098D8E8 /* Build configuration list for PBXNativeTarget "KTVUITests" */;
+			buildConfigurationList = 1680520A2159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTVUITests" */;
 			buildPhases = (
-				1620E99B214106970098D8E8 /* Sources */,
-				1620E99C214106970098D8E8 /* Frameworks */,
-				1620E99D214106970098D8E8 /* Resources */,
+				168051F72159E1AA00D90A37 /* Sources */,
+				168051F82159E1AA00D90A37 /* Frameworks */,
+				168051F92159E1AA00D90A37 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1620E9A1214106970098D8E8 /* PBXTargetDependency */,
+				168051FD2159E1AA00D90A37 /* PBXTargetDependency */,
 			);
 			name = KTVUITests;
 			productName = KTVUITests;
-			productReference = 1620E99F214106970098D8E8 /* KTVUITests.xctest */;
+			productReference = 168051FB2159E1AA00D90A37 /* KTVUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1620E974214106960098D8E8 /* Project object */ = {
+		168051D02159E1A900D90A37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = songyang;
 				TargetAttributes = {
-					1620E97B214106960098D8E8 = {
-						CreatedOnToolsVersion = 9.4.1;
+					168051D72159E1A900D90A37 = {
+						CreatedOnToolsVersion = 10.0;
 					};
-					1620E993214106970098D8E8 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 1620E97B214106960098D8E8;
+					168051EF2159E1AA00D90A37 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 168051D72159E1A900D90A37;
 					};
-					1620E99E214106970098D8E8 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 1620E97B214106960098D8E8;
+					168051FA2159E1AA00D90A37 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 168051D72159E1A900D90A37;
 					};
 				};
 			};
-			buildConfigurationList = 1620E977214106960098D8E8 /* Build configuration list for PBXProject "KTV" */;
+			buildConfigurationList = 168051D32159E1A900D90A37 /* Build configuration list for PBXProject "KTV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1620E973214106960098D8E8;
-			productRefGroup = 1620E97D214106960098D8E8 /* Products */;
+			mainGroup = 168051CF2159E1A900D90A37;
+			productRefGroup = 168051D92159E1A900D90A37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1620E97B214106960098D8E8 /* KTV */,
-				1620E993214106970098D8E8 /* KTVTests */,
-				1620E99E214106970098D8E8 /* KTVUITests */,
+				168051D72159E1A900D90A37 /* KTV */,
+				168051EF2159E1AA00D90A37 /* KTVTests */,
+				168051FA2159E1AA00D90A37 /* KTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1620E97A214106960098D8E8 /* Resources */ = {
+		168051D62159E1A900D90A37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1620E98C214106970098D8E8 /* LaunchScreen.storyboard in Resources */,
-				1620E989214106970098D8E8 /* Assets.xcassets in Resources */,
-				1620E987214106960098D8E8 /* Main.storyboard in Resources */,
+				168051E82159E1AA00D90A37 /* LaunchScreen.storyboard in Resources */,
+				168051E52159E1AA00D90A37 /* Assets.xcassets in Resources */,
+				168051E32159E1A900D90A37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1620E992214106970098D8E8 /* Resources */ = {
+		168051EE2159E1AA00D90A37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1620E99D214106970098D8E8 /* Resources */ = {
+		168051F92159E1AA00D90A37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,108 +257,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C30E5BDB2944D27E84B057AE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KTV/Pods-KTV-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
-				"${BUILT_PRODUCTS_DIR}/JSONKit/JSONKit.framework",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTV/Pods-KTV-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F668D6F9F7807F42BD530D17 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KTV-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1620E978214106960098D8E8 /* Sources */ = {
+		168051D42159E1A900D90A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1620E984214106960098D8E8 /* ViewController.m in Sources */,
-				1620E98F214106970098D8E8 /* main.m in Sources */,
-				1620E981214106960098D8E8 /* AppDelegate.m in Sources */,
+				168051E02159E1A900D90A37 /* ViewController.m in Sources */,
+				168051EB2159E1AA00D90A37 /* main.m in Sources */,
+				168051DD2159E1A900D90A37 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1620E990214106970098D8E8 /* Sources */ = {
+		168051EC2159E1AA00D90A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1620E999214106970098D8E8 /* KTVTests.m in Sources */,
+				168051F52159E1AA00D90A37 /* KTVTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1620E99B214106970098D8E8 /* Sources */ = {
+		168051F72159E1AA00D90A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1620E9A4214106970098D8E8 /* KTVUITests.m in Sources */,
+				168052002159E1AA00D90A37 /* KTVUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1620E996214106970098D8E8 /* PBXTargetDependency */ = {
+		168051F22159E1AA00D90A37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1620E97B214106960098D8E8 /* KTV */;
-			targetProxy = 1620E995214106970098D8E8 /* PBXContainerItemProxy */;
+			target = 168051D72159E1A900D90A37 /* KTV */;
+			targetProxy = 168051F12159E1AA00D90A37 /* PBXContainerItemProxy */;
 		};
-		1620E9A1214106970098D8E8 /* PBXTargetDependency */ = {
+		168051FD2159E1AA00D90A37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1620E97B214106960098D8E8 /* KTV */;
-			targetProxy = 1620E9A0214106970098D8E8 /* PBXContainerItemProxy */;
+			target = 168051D72159E1A900D90A37 /* KTV */;
+			targetProxy = 168051FC2159E1AA00D90A37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1620E985214106960098D8E8 /* Main.storyboard */ = {
+		168051E12159E1A900D90A37 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1620E986214106960098D8E8 /* Base */,
+				168051E22159E1A900D90A37 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1620E98A214106970098D8E8 /* LaunchScreen.storyboard */ = {
+		168051E62159E1AA00D90A37 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1620E98B214106970098D8E8 /* Base */,
+				168051E72159E1AA00D90A37 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -392,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1620E9A6214106970098D8E8 /* Debug */ = {
+		168052022159E1AA00D90A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -443,14 +370,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		1620E9A7214106970098D8E8 /* Release */ = {
+		168052032159E1AA00D90A37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,16 +423,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1620E9A9214106970098D8E8 /* Debug */ = {
+		168052052159E1AA00D90A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 171FDEDEF28803E7815ABA9B /* Pods-KTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -520,9 +448,8 @@
 			};
 			name = Debug;
 		};
-		1620E9AA214106970098D8E8 /* Release */ = {
+		168052062159E1AA00D90A37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4D67D3097F026FD59DAB07D /* Pods-KTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,7 +465,7 @@
 			};
 			name = Release;
 		};
-		1620E9AC214106970098D8E8 /* Debug */ = {
+		168052082159E1AA00D90A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -557,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		1620E9AD214106970098D8E8 /* Release */ = {
+		168052092159E1AA00D90A37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,7 +503,7 @@
 			};
 			name = Release;
 		};
-		1620E9AF214106970098D8E8 /* Debug */ = {
+		1680520B2159E1AA00D90A37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -594,7 +521,7 @@
 			};
 			name = Debug;
 		};
-		1620E9B0214106970098D8E8 /* Release */ = {
+		1680520C2159E1AA00D90A37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -615,43 +542,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1620E977214106960098D8E8 /* Build configuration list for PBXProject "KTV" */ = {
+		168051D32159E1A900D90A37 /* Build configuration list for PBXProject "KTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1620E9A6214106970098D8E8 /* Debug */,
-				1620E9A7214106970098D8E8 /* Release */,
+				168052022159E1AA00D90A37 /* Debug */,
+				168052032159E1AA00D90A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1620E9A8214106970098D8E8 /* Build configuration list for PBXNativeTarget "KTV" */ = {
+		168052042159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1620E9A9214106970098D8E8 /* Debug */,
-				1620E9AA214106970098D8E8 /* Release */,
+				168052052159E1AA00D90A37 /* Debug */,
+				168052062159E1AA00D90A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1620E9AB214106970098D8E8 /* Build configuration list for PBXNativeTarget "KTVTests" */ = {
+		168052072159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1620E9AC214106970098D8E8 /* Debug */,
-				1620E9AD214106970098D8E8 /* Release */,
+				168052082159E1AA00D90A37 /* Debug */,
+				168052092159E1AA00D90A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1620E9AE214106970098D8E8 /* Build configuration list for PBXNativeTarget "KTVUITests" */ = {
+		1680520A2159E1AA00D90A37 /* Build configuration list for PBXNativeTarget "KTVUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1620E9AF214106970098D8E8 /* Debug */,
-				1620E9B0214106970098D8E8 /* Release */,
+				1680520B2159E1AA00D90A37 /* Debug */,
+				1680520C2159E1AA00D90A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1620E974214106960098D8E8 /* Project object */;
+	rootObject = 168051D02159E1A900D90A37 /* Project object */;
 }
